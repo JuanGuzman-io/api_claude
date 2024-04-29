@@ -1,0 +1,17 @@
+{
+  "name": "api_claude",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon assistant.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
